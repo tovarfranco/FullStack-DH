@@ -36,3 +36,45 @@ contar(correr);  //cuanto hasta 10 y corro
 contar(saltar); //cuanto hasta 10 y salto
 
 //Contar ejecuta la función que le mandes. 
+
+
+
+//Ejemplo:
+
+let suma = (a,b) => a+b
+let resta = (a,b) => a-b
+let multiplicacion = (a,b) => a*b
+let division = (a,b) => a/b
+
+
+function calculadora(a,b,operando){
+    return operando(a,b)
+}
+
+
+//Ejemplo:
+function agregarHttp(url) {
+    return "http://"+url
+}
+function procesar(urls,accion){
+    let urlsProcesadas = []
+    for(let i=0; i<urls.length;i++){
+        urlsProcesadas.push(accion(urls[i]))
+    }
+    return urlsProcesadas
+}
+console.log(procesar(["www.google.com","www.yahoo.com"],agregarHttp))
+
+
+//Ejemplo:
+function agregarHttp(url) {
+    return "http://"+url
+}
+function procesar(urls,accion){
+    let urlsProcesadas = []
+    for(let i=0; i<urls.length;i++){
+        urlsProcesadas.push(accion(urls[i]))
+    }
+    return urlsProcesadas
+}
+console.log(procesar(["www.google.com","www.yahoo.com"],agregarHttp))
