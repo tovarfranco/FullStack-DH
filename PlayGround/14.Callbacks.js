@@ -78,3 +78,19 @@ function procesar(urls,accion){
     return urlsProcesadas
 }
 console.log(procesar(["www.google.com","www.yahoo.com"],agregarHttp))
+
+
+
+
+
+
+//Practica:
+
+let decirPalabras = text => console.log(text)
+
+function contarHasta10(numero,text,callback){
+    for (let i = 0; i<10; i++){
+        console.log(i)
+    }
+    callback(text)
+}
