@@ -1,0 +1,10 @@
+//Creo repository
+git init   (creo repo local)
+git remote add origin url (lo apunto al de github)
+git remote -v  //muestra los remotos   
+
+npm init
+npm install express
+
+//no es necesario subir la carpeta de modulos al repo, ya que sino tengo el package.json
+//.gitignore
