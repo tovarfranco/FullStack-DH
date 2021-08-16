@@ -8,7 +8,3 @@ function aumentarArray(array){
 }
 
 //aumentarArray([1,2,3])
-
-
-
-

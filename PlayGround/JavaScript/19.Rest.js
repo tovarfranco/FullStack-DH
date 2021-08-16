@@ -1,7 +1,7 @@
 //Se usa el operador spread (...)
 //Pero utilizado como ultimo parametro de una funcion, nos permite capturar cada uno de los argumentos 
 //adicionales pasados a esa funcion. Éstos parametros adicionales se consideran una lista.
-//Se usa al definir una función. Siempre se debe DECLARAR al final. Sino rompe la funcion.
+//Se usa al definir una función. Siempre se nd video or screensharing until after you have finished thedebe DECLARAR al final. Sino rompe la funcion.
 
 function loQueSea(a,b,...otros){
     console.log(otros)
