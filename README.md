@@ -18,7 +18,8 @@ En este tipo de cardinalidad, a cada elemento de una tabla A le corresponde unic
 Por ejemplo:
 
 Persona(dni,nombre,apellido,edad)
-Pasaporte(dni,id,fecha de emisiónm,lugar de emisión)
+
+Pasaporte(dni,id,fecha de emisión,lugar de emisión)
 
 (Restricción: una persona puede tener un único pasaporte, y un pasaporte puede perteneces a solo una persona)
 
@@ -43,7 +44,9 @@ Para éste tipo de cardinalidad, se necesitará una tabla intermedia que estára
 Por ejemplo:
 
 Alumno(legajo,nombre,apellido)
+
 Materia(id_materia,nombre,descripción,año)
+
 Intermedia(id,legajo,id_materia)
 
 (Restricción: una persona puede anotarse a una o muchas materias, y en una materia puede anotarse uno o muchos alumnos)
