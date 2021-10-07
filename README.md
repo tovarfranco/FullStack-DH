@@ -29,6 +29,7 @@ En este tipo de cardinalidad, a cada elemento de una tabla A le corresponde uno 
 Por ejemplo:
 
 Persona(id_persona,nombre,apellido,mail)
+
 Pedido(id_pedido,descripción,cantidad,id_persona)
 
 (Restricción: una persona puede realizar uno o muchos pedidos, pero un pedido es realizado solo por una persona)
