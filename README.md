@@ -14,5 +14,3 @@
 
 - También se encuentra una imagen en caso de que no se pueda abrir con la herramienta anterior.
 
-#### Creador ✒️ 
-[Alan Tovar](https://github.com/atovar-git/DER---FullStack-DH)
